@@ -1,0 +1,11 @@
+import React from "react";
+// import {Link} from 'react-router-dom';
+import { Spin } from "antd";
+
+export default function Loader() {
+  return (
+    <div className="loader">
+      <Spin />
+    </div>
+  );
+}
