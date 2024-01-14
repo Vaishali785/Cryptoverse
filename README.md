@@ -14,5 +14,5 @@ https://cryptoversebyvaishali.web.app/
 - RapidAPI
 
 <!-- Hosted on Main branch  -->
-<!-- Master branch conatins the code of initial deployed website -->
+<!-- Master branch contains the code of initial deployed website, so don't change anything here. -->
 <!-- Do all the changes on New branch and then merge it in main -->
