@@ -18,7 +18,8 @@ export default function News({ simplified }) {
     });
     const { data, isFetching } = useGetCryptosQuery(100);
 
-    console.log(cryptoNews)
+
+
     if (!cryptoNews?.value) return <Loader />;
     // console.log(data);
     // console.log(moment(cryptoNews.value[0].datePublished).startOf('hh').fromNow());

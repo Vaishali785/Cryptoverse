@@ -11,8 +11,6 @@ export default function Cryptocurrencies({ simplified }) {
     const [cryptos, setCryptos] = useState([]);
     const [searchTerm, setSearchTerm] = useState("");
     // console.log("data",data);
-    console.log("cryptoList", cryptosList);
-    console.log("crypto", cryptos);
 
     useEffect(() => {
         const filteredData = cryptosList?.data?.coins.filter((coin) =>

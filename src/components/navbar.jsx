@@ -11,6 +11,7 @@ function getItem(label, key, icon) {
     };
 }
 
+
 const { Title } = Typography;
 const items = [
     {
@@ -21,14 +22,7 @@ const items = [
         ),
         key: "home"
     },
-    {
-        label: (
-            <Link to="/exchanges" className="routes">
-                Exchange
-            </Link>
-        ),
-        key: "exchange"
-    },
+
     {
         label: (
             <Link to="/cryptocurrencies" className="routes">

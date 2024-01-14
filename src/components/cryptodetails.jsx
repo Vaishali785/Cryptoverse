@@ -138,7 +138,7 @@ export default function CryptoDetails() {
                             <p>An overview showing the stats of {cryptoDetails?.name}</p>
                         </Col>
                         {stats.map(({ icon, title, value }) => (
-                            <Col className="coin-stats">
+                            <Col className="coin-stats" key={value}>
                                 <Col className="coin-stats-name">
                                     <Text>{icon}</Text>
                                     <Text>{title}</Text>
@@ -155,7 +155,7 @@ export default function CryptoDetails() {
                             <p>An overview showing the stats of all cryptocurrencies.</p>
                         </Col>
                         {stats.map(({ icon, title, value }) => (
-                            <Col className="coin-stats">
+                            <Col className="coin-stats" key={value}>
                                 <Col className="coin-stats-name">
                                     <Text>{icon}</Text>
                                     <Text>{title}</Text>

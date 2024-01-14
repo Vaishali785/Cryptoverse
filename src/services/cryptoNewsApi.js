@@ -21,5 +21,6 @@ export const cryptoNewsApi = createApi({
         })
     })
 });
-console.log(cryptoNewsApi);
+// console.log("cryptoNewsApi");
+// console.log(cryptoNewsApi);
 export const { useGetCryptoNewsQuery } = cryptoNewsApi;

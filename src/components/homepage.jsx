@@ -11,7 +11,7 @@ export default function HomePage() {
     const { Title } = Typography;
     const { data, isFetching } = useGetCryptosQuery(10);
     const globalStats = data?.data?.stats;
-    console.log("data", data);
+    // console.log("data", data);
 
     if (isFetching) return <Loader />;
     return (
