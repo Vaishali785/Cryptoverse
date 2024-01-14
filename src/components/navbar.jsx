@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Typography, Avatar, Menu, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-
+import logo from '../assets/logo.jpeg';
 function getItem(label, key, icon) {
     return {
         key,
@@ -48,7 +48,8 @@ export default function Navbar() {
         <div className="nav-container">
             <div className="logo-container">
                 <Avatar
-                    src="https://t4.ftcdn.net/jpg/04/77/81/47/360_F_477814721_Dgpo4V6G93nCZx3Ppxc9fcJyQXcBlcR9.jpg"
+                    src={logo}
+                    // "https://t4.ftcdn.net/jpg/04/77/81/47/360_F_477814721_Dgpo4V6G93nCZx3Ppxc9fcJyQXcBlcR9.jpg"
                     className="logo-img"
                 />
                 <Title level={2} className="logo">

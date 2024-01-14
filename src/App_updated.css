@@ -3,6 +3,14 @@
     /* overflow: hidden; */
     grid-template-columns: 1fr 3fr;
 }
+.logo a{
+    color: #1890ff;
+}
+
+.logo{
+    margin-bottom: 0 !important;
+}
+
 .main{
     margin-left: 0;
 }
@@ -55,13 +63,23 @@
         grid-template-columns: 1fr;
         /* grid-template-rows: ; */
     }
-    
+    .navbar{
+        height: 75px;
+    }
+    .main{
+        margin-top: 0;
+    }
     .nav-container {
             height: 8vh;
             position: fixed;
             width: 100%;
             z-index: 100;
             background-color: var(--bgSecondary);
+    }
+    .menu-control-container{
+        display: flex !important;
+        align-items: center;
+        padding-top: 9px !important;
     }
     .menu-control-container span{
         height: auto;
