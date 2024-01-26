@@ -17,9 +17,9 @@ For a live demonstration, explore [CryptoVerse Demo](https://cryptoversebyvaisha
 CryptoVerse is a comprehensive platform for cryptocurrency enthusiasts, providing detailed information about various cryptocurrencies along with real-time graphs for in-depth analysis. The application is built using ReactJS, styled with Ant Design, and hosted on Firebase.
 
 <div>
-   <img src='https://github.com/Vaishali785/Cryptoverse/blob/main/src/assets/screenshots/homePage.png' width='300px'/> &nbsp;&nbsp;&nbsp;&nbsp;
-   <img src='https://github.com/Vaishali785/Cryptoverse/blob/main/src/assets/screenshots/detailPage.png' width='300px'  /> &nbsp;&nbsp;&nbsp;&nbsp;
-   <img src='https://github.com/Vaishali785/Cryptoverse/blob/main/src/assets/screenshots/searchPage.png' width='300px' />    
+   <img src='https://github.com/Vaishali785/Cryptoverse/blob/main/src/assets/screenshots/homePage.png' width='250px'/> &nbsp;&nbsp;&nbsp;&nbsp;
+   <img src='https://github.com/Vaishali785/Cryptoverse/blob/main/src/assets/screenshots/detailPage.png' width='250px'  /> &nbsp;&nbsp;&nbsp;&nbsp;
+   <img src='https://github.com/Vaishali785/Cryptoverse/blob/main/src/assets/screenshots/searchPage.png' width='250px' />    
 </div>
 
 ## Features
